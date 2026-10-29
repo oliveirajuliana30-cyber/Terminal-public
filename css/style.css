@@ -1,0 +1,185 @@
+/* ===== Geral ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: #f4f6fb;
+  color: #2b2d42;
+  line-height: 1.6;
+}
+
+/* ===== Cabeçalho ===== */
+header {
+  background-color: #4f46e5;
+  color: #ffffff;
+  text-align: center;
+  padding: 32px 16px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  margin: 0 0 8px;
+}
+
+header p {
+  margin: 0;
+}
+
+/* ===== Navegação ===== */
+nav {
+  background-color: #3730a3;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 12px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fde68a;
+  text-decoration: underline;
+}
+
+/* ===== Conteúdo principal ===== */
+main,
+#contato {
+  max-width: 700px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+main section,
+#contato {
+  background-color: #ffffff;
+  border: 1px solid #c7c9e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  color: #4f46e5;
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+/* Classe: parágrafo de destaque */
+.destaque {
+  background-color: #eef2ff;
+  border-left: 4px solid #4f46e5;
+  padding: 12px;
+  font-style: italic;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 6px;
+  color: #3730a3;
+}
+
+/* ===== Imagem ===== */
+.foto {
+  display: block;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 4px solid #4f46e5;
+  border-radius: 50%;
+  margin: 16px auto 0;
+}
+
+/* ===== Formulário ===== */
+fieldset {
+  border: 2px solid #c7c9e0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+legend {
+  padding: 0 8px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+form p {
+  margin: 0 0 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c9e0;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4f46e5;
+  outline: 2px solid #c7d2fe;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+button[type="reset"] {
+  background-color: #e5e7eb;
+  color: #2b2d42;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* ===== Rodapé ===== */
+footer {
+  background-color: #2b2d42;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 16px;
+}
+
+footer a {
+  color: #a5b4fc;
+}
+
+footer a:hover {
+  color: #fde68a;
+  }
