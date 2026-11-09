@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Página Pessoal da Juliana</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -16,14 +15,13 @@
     <nav>
         <a href="index.html">Início</a>
         <a href="sobre.html">Sobre</a>
-        <a href="#contato">Contato</a>
     </nav>
 
     <main>
         <section>
             <h2>Apresentação</h2>
-            <p class="destaque">Meu nome é Juliana, estudo Informática para Internet no IF Sudeste MG, campus Barbacena. Estou aprendendo a criar páginas web e gosto de tecnologia.</p>
-            <img class="foto" src="img/foto.jpg" alt="Foto da Juliana">
+            <p>Meu nome é Juliana, estudo Informática para Internet no IF Sudeste MG, campus Barbacena. Estou aprendendo a criar páginas web e gosto de tecnologia.</p>
+            <img src="img/foto.jpg" alt="Foto da Juliana" width="250">
         </section>
 
         <section>
@@ -31,52 +29,233 @@
             <ul>
                 <li>Ouvir música</li>
                 <li>Assistir séries</li>
-                <li>Aprender a  programação</li>
+                <li>Aprender programação</li>
             </ul>
         </section>
-    </main>
+  <section class="tecnologias">
+      <h2>Tecnologias e Interesses</h2>
+      <div class="cards">
 
+        <article class="card">
+          <div class="card-topo">
+            
+  <span class="icone">💻</span>
+  <h3>Desenvolvimento Web</h3>
 
-    
-    <section id="contato">
+          
+        </div>
+          <p>Criação de sites com HTML e CSS.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+        </article>
+
+      <article class="card">
+  <div class="card-topo">
+    <span class="icone">🎵</span>
+    <h3>Música</h3>
+  </div>
+  <p>Gosto de ouvir música enquanto estudo e programo.</p>
+  <div class="tags">
+    <span>Relax</span><span>Foco</span>
+  </div>
+</article>
+<article class="card">
+
+  <div class="card-topo">
+    <span class="icone">🎬</span>
+    <h3>Séries</h3>
+  </div>
+  <p>Assistir séries é meu momento de descanso.</p>
+  <div class="tags">
+    <span>Lazer</span><span>Séries</span>
+  </div>
+  
+</article>
+
+<article class="card">
+  <div class="card-topo">
+    <span class="icone">🔀</span>
+    <h3>Git e GitHub</h3>
+  </div>
+  <p>Controle de versão e publicação dos meus projetos.</p>
+  <div class="tags">
+    <span>Git</span><span>GitHub</span>
+  </div>
+</article>
+      </div>
+    </section>
+  
+<section id="contato">
+  
+
     <h2>Entre em contato</h2>
 
-    <form action="#" method="post">
-    <fieldset>
-      <legend>Formulário de contato</legend>
+    <form>
+        <fieldset>
+            <legend>Formulário de contato</legend>
 
-      <p>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
-      </p>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </p>
 
-      <p>
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-      </p>
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
 
-      <p>
-        <label for="assunto">Assunto:</label>
-        <input type="text" id="assunto" name="assunto">
-      </p>
+            <p>
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+            </p>
 
-      <p>
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea>
-      </p>
+            <p>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"
+                    rows="5" required></textarea>
+            </p>
 
-      <button type="submit">Enviar</button>
-      <button type="reset">Limpar</button>
-    </fieldset>
-  </form>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
 </section>
-
+</main>
 
     <footer>
-    
         <p>Criado por Juliana</p>
-        <a href="https://github.com/oliveirajuliana30-cyber">Meu GitHub</a>
+        <a href="https://github.com/seu-usuario">Meu GitHub</a>
     </footer>
-
 </body>
-</html>
+    </html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Pessoal da Juliana</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Olá, eu sou a Juliana!</h1>
+        <p>Estudante de Informática para Internet</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Apresentação</h2>
+            <p>Meu nome é Juliana, estudo Informática para Internet no IF Sudeste MG, campus Barbacena. Estou aprendendo a criar páginas web e gosto de tecnologia.</p>
+            <img src="img/foto.jpg" alt="Foto da Juliana" width="250">
+        </section>
+
+        <section>
+            <h2>Hobbies e Interesses</h2>
+            <ul>
+                <li>Ouvir música</li>
+                <li>Assistir séries</li>
+                <li>Aprender programação</li>
+            </ul>
+        </section>
+  <section class="tecnologias">
+      <h2>Tecnologias e Interesses</h2>
+      <div class="cards">
+
+        <article class="card">
+          <div class="card-topo">
+            
+  <span class="icone">💻</span>
+  <h3>Desenvolvimento Web</h3>
+
+          
+        </div>
+          <p>Criação de sites com HTML e CSS.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+        </article>
+
+      <article class="card">
+  <div class="card-topo">
+    <span class="icone">🎵</span>
+    <h3>Música</h3>
+  </div>
+  <p>Gosto de ouvir música enquanto estudo e programo.</p>
+  <div class="tags">
+    <span>Relax</span><span>Foco</span>
+  </div>
+</article>
+<article class="card">
+
+  <div class="card-topo">
+    <span class="icone">🎬</span>
+    <h3>Séries</h3>
+  </div>
+  <p>Assistir séries é meu momento de descanso.</p>
+  <div class="tags">
+    <span>Lazer</span><span>Séries</span>
+  </div>
+  
+</article>
+
+<article class="card">
+  <div class="card-topo">
+    <span class="icone">🔀</span>
+    <h3>Git e GitHub</h3>
+  </div>
+  <p>Controle de versão e publicação dos meus projetos.</p>
+  <div class="tags">
+    <span>Git</span><span>GitHub</span>
+  </div>
+</article>
+      </div>
+    </section>
+  
+<section id="contato">
+  
+
+    <h2>Entre em contato</h2>
+
+    <form>
+        <fieldset>
+            <legend>Formulário de contato</legend>
+
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </p>
+
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+            </p>
+
+            <p>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"
+                    rows="5" required></textarea>
+            </p>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
+</section>
+</main>
+
+    <footer>
+        <p>Criado por Juliana</p>
+        <a href="https://github.com/seu-usuario">Meu GitHub</a>
+    </footer>
+</body>
+        </html>
