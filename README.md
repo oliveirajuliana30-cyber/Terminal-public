@@ -17,4 +17,4 @@ Formulário de contato da atividade de Programação Web 1
 ## Captura de tela - Flexbox e Grid
 
 
-![Página com Flexbox e Grid](Screenshot_20261109-121303_Chrome.jpg)
+![Página com Flexbox e Grid](Screenshot_20261109-121303_Acode.jpg)
