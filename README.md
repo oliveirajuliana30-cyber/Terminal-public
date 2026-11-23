@@ -1,20 +1,7 @@
-# Página Pessoal
-Formulário de contato da atividade de Programação Web 1
+# Central de Utilidades
 
+Projeto Integrador - Programação Web I (IF Sudeste MG - Campus Barbacena).
 
+Ferramentas: calculadora de descontos, calculadora de parcelas, simulador de investimentos e divisor de despesas.
 
-![Formulário de contato](Screenshot_20261021-123637_Chrome.jpg)
-
-
-
-## Captura de tela do CSS
-
-
-![Página com CSS](Screenshot_20261029-210911_Chrome.jpg)
-
-
-
-## Captura de tela - Flexbox e Grid
-
-
-![Página com Flexbox e Grid](Screenshot_20261109-121303_Acode.jpg)
+Arquivos: index.html, style.css, script.js e esboco.html (esboço do layout).
